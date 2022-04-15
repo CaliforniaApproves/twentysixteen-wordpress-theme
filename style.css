@@ -4041,3 +4041,9 @@ p > video {
 body, button, input, select, textarea {
 	font-family: "Merriweather", serif;
 }
+
+table.ca-donate-form,
+table.ca-donate-form tr,
+table.ca-donate-form td {
+	border: none;
+}
