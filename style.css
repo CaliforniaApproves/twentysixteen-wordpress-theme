@@ -4030,3 +4030,14 @@ p > video {
 		padding: 0;
 	}
 }
+
+/* CA Approves Custom Styles */
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
+.site-title, .post-navigation .post-title, .comments-title, .comment-reply-title, .page-title, .entry-title {
+	font-family: "Oswald", sans-serif;
+}
+
+body, button, input, select, textarea {
+	font-family: "Merriweather", serif;
+}
