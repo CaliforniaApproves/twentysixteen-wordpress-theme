@@ -51,7 +51,11 @@
 					 */
 					do_action( 'twentysixteen_credits' );
 				?>
-				<span class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></span>
+				<span class="site-title">
+					<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
+						Paid for by California Approves FPPC #1440633
+					</a>
+				</span>
 				<?php
 				if ( function_exists( 'the_privacy_policy_link' ) ) {
 					the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
@@ -60,7 +64,7 @@
 				<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentysixteen' ) ); ?>" class="imprint">
 					<?php
 					/* translators: %s: WordPress */
-					printf( __( 'Proudly powered by %s', 'twentysixteen' ), 'WordPress' );
+					printf( __( 'Powered by %s', 'twentysixteen' ), 'WordPress' );
 					?>
 				</a>
 			</div><!-- .site-info -->
