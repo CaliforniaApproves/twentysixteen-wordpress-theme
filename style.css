@@ -4047,3 +4047,7 @@ form.ca-donate-form tr,
 form.ca-donate-form td {
 	border: none;
 }
+
+#mc_embed_signup .indicates-required {
+	float: right;
+}
